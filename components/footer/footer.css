@@ -1,0 +1,43 @@
+.footer {
+  padding-top: 125px;
+  padding-bottom: 40px;
+  background-color: var(--background-principal);
+  position: sticky;
+  top: 100vh;
+}
+
+.footer__logo {
+  width: 200px;
+}
+
+.footer__title {
+  margin-bottom: 20px;
+}
+
+.footer__list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.footer__listItem {
+  height: 40px;
+  line-height: 40px;
+}
+
+.footer__listItem:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.footer__paymentMethod {
+  font-size: 40px;
+  margin-right: 10px;
+}
+
+.footer__paymentMethod:nth-child(1) {
+  margin-left: 20px;
+}
+
+.footer__payment {
+  margin-bottom: 100px;
+}

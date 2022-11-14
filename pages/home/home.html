@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carl Backpack Shop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800;900;1000&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://bootswatch.com/5/lux/bootstrap.min.css" />
+    <link rel="stylesheet" href="../../style.css" />
+</head>
+
+<body class="container-fluid">
+    <header class=" header row">
+        <div class="col-8 mx-auto">
+            <div class="row justify-content-around align-items-center">
+                <div class="col-2 text-left">
+                    <img src="../../assets/favicon/logo.png" alt="E-commerce Carl logo" width="150" />
+                </div>
+                <nav class="col-8 navbar d-flex justify-content-center align-items-center nav__container">
+                    <ul
+                        class="navbar-nav navbar__direction navbar__wrapper d-flex justify-content-center align-items-center">
+                        <li class="nav-item"><a class="nav-link" href="#">Backpacks</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Loncheras</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Cartucheras</a></li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Cubre Mochilas</a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="#">All</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Sobre Carl</a></li>
+                    </ul>
+                </nav>
+                <div class="col-2">
+                    <div class="row align-items-center justify-content-center">
+                        <div class="col-4 pr-0">
+                            <a class="text-decoration-none d-flex align-items-center justify-content-end" href="#">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </a>
+                        </div>
+                        <div class="col-8 pr-0">
+                            <a class="text-decoration-none d-flex align-items-center justify-content-end header__bagContainer"
+                                href="#">
+                                <i class="fa-solid fa-bag-shopping"></i>
+                                <span>Mi carrito</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <section class="hero row">
+        <div class="col-12 px-0">
+            <div id="carouselFade" class="carousel slide carousel-fade" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="../../assets/images/hero-1.jpg" class="d-block w-100 hero__image" alt="Image showing people carrying backpacks for sale."
+                            width="1200">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../../assets/images/hero-2.jpg" class="d-block w-100 hero__image" alt="Image showing people carrying backpacks for sale."
+                            width="1200">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../../assets/images/hero-3.jpg" class="d-block w-100 hero__image" alt="Image showing people carrying backpacks for sale."
+                            width="1200">
+                    </div>
+                </div>
+                <button class="carousel-control-prev hero__buttonPrev" type="button" data-target="#carouselFade"
+                    data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Anterior</span>
+                </button>
+                <button class="carousel-control-next hero__buttonNext" type="button" data-target="#carouselFade"
+                    data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Siguiente</span>
+                </button>
+            </div>
+        </div>
+        <div class="hero__buttonPrincipalContainer">
+            <button class="btn btn-primary hero__buttonPrincipal">
+                <span>VER TODO</span>
+            </button>
+        </div>
+    </section>
+
+    <section class="collection row mt-5 mb-5 pt-5 pb-5">
+        <div class="col-8 mx-auto">
+            <div class="row">
+                <div class="col-12">
+                    <div class="row mb-5">
+                        <div class="col-7 mx-auto">
+                            <div class="collection__info">
+                                <h2 class="text-center">EXPLORAR COLECCIONES</h2>
+                                <p class="text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                    Tempora, assumenda! Lorem ipsum dolor sit amet.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="collection__galleryContainer">
+                                <div class="collection__galleryWrapper collection__galleryWrapper--one">
+                                    <div class="collection__galleryContent">
+                                        <img class="collection__galleryContent--image"
+                                            src="../../assets/images/picture-1.jpg" alt="Backpack image" width="500">
+                                    </div>
+                                    <div class="collection__galleryButtonContainer">
+                                        <button class="btn btn-light collection__galleryButton">
+                                            <span>MOCHILA SEOUL</span>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="collection__galleryWrapper collection__galleryWrapper--two">
+                                    <div class="collection__galleryContent">
+                                        <img class="collection__galleryContent--image"
+                                            src="../../assets/images/picture-2.jpg" alt="Backpack image" width="500">
+                                    </div>
+                                    <div class="collection__galleryButtonContainer">
+                                        <button class="btn btn-light collection__galleryButton">
+                                            <span>MOCHILA CITY PACK</span>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="collection__galleryWrapper collection__galleryWrapper--three">
+                                    <div class="collection__galleryContent">
+                                        <img class="collection__galleryContent--image"
+                                            src="../../assets/images/picture-3.jpg" alt="Backpack image" width="500">
+                                    </div>
+                                    <div class="collection__galleryButtonContainer">
+                                        <button class="btn btn-light collection__galleryButton">
+                                            <span>MOCHILA ALBER</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="productList row mt-5 mb-5 pt-5 pb-5">
+        <div class="col-8 mx-auto">
+            <div class="row d-none">
+                <div class="col-12">
+                    <h2 class="text-center">PRODUCTOS</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3">
+                    <div class="row">
+                        <div class="col-12 d-flex flex-column justify-content-center productList__cardContainer">
+                            <div class="row">
+                                <div class="col-12 productList__imageContainer">
+                                    <img class="productList__image" src="../../assets/images/product-1.jpg"
+                                        alt="Carl product" width="100">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <h3 class="productList__titleProduct">MOCHILA SEOUL MINI</h3>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 productList__priceProductContainer">
+                                    <span class="productList__priceProduct">S/399.00</span>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 productList__colorContainer">
+                                    <div class="productList__itemContainer">
+                                        <div class="productList__itemWrapper productList__itemWrapper--one">
+                                            <div class="productList__itemColor productList__itemColor--one"></div>
+                                        </div>
+                                        <div class="productList__itemWrapper">
+                                            <div class="productList__itemColor productList__itemColor--two"></div>
+                                        </div>
+                                        <div class="productList__itemWrapper">
+                                            <div class="productList__itemColor productList__itemColor--three"></div>
+                                        </div>
+                                        <div class="productList__itemWrapper">
+                                            <span class="productList__itemTextQuantity">+28</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="row">
+                        <div class="col-12 d-flex flex-column justify-content-center productList__cardContainer">
+                            <div class="row">
+                                <div class="col-12 productList__imageContainer">
+                                    <img class="productList__image" src="../../assets/images/product-1.jpg"
+                                        alt="Carl product" width="100">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <h3 class="productList__titleProduct">MOCHILA SEOUL MINI</h3>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 productList__priceProductContainer">
+                                    <span class="productList__priceProduct">S/399.00</span>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 productList__colorContainer">
+                                    <div class="productList__itemContainer">
+                                        <div class="productList__itemWrapper productList__itemWrapper--one">
+                                            <div class="productList__itemColor productList__itemColor--one"></div>
+                                        </div>
+                                        <div class="productList__itemWrapper">
+                                            <div class="productList__itemColor productList__itemColor--two"></div>
+                                        </div>
+                                        <div class="productList__itemWrapper">
+                                            <div class="productList__itemColor productList__itemColor--three"></div>
+                                        </div>
+                                        <div class="productList__itemWrapper">
+                                            <span class="productList__itemTextQuantity">+28</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-3">
+                    <div class="row">
+                        <div class="col-12 d-flex flex-column justify-content-center productList__cardContainer">
+                            <div class="row">
+                                <div class="col-12 productList__imageContainer">
+                                    <img class="productList__image" src="../../assets/images/product-1.jpg"
+                                        alt="Carl product" width="100">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <h3 class="productList__titleProduct">MOCHILA SEOUL MINI</h3>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 productList__priceProductContainer">
+                                    <span class="productList__priceProduct">S/399.00</span>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 productList__colorContainer">
+                                    <div class="productList__itemContainer">
+                                        <div class="productList__itemWrapper productList__itemWrapper--one">
+                                            <div class="productList__itemColor productList__itemColor--one"></div>
+                                        </div>
+                                        <div class="productList__itemWrapper">
+                                            <div class="productList__itemColor productList__itemColor--two"></div>
+                                        </div>
+                                        <div class="productList__itemWrapper">
+                                            <div class="productList__itemColor productList__itemColor--three"></div>
+                                        </div>
+                                        <div class="productList__itemWrapper">
+                                            <span class="productList__itemTextQuantity">+28</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-3">
+                    <div class="row">
+                        <div class="col-12 d-flex flex-column justify-content-center productList__cardContainer">
+                            <div class="row">
+                                <div class="col-12 productList__imageContainer">
+                                    <img class="productList__image" src="../../assets/images/product-1.jpg"
+                                        alt="Carl product" width="100">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <h3 class="productList__titleProduct">MOCHILA SEOUL MINI</h3>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 productList__priceProductContainer">
+                                    <span class="productList__priceProduct">S/399.00</span>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 productList__colorContainer">
+                                    <div class="productList__itemContainer">
+                                        <div class="productList__itemWrapper productList__itemWrapper--one">
+                                            <div class="productList__itemColor productList__itemColor--one"></div>
+                                        </div>
+                                        <div class="productList__itemWrapper">
+                                            <div class="productList__itemColor productList__itemColor--two"></div>
+                                        </div>
+                                        <div class="productList__itemWrapper">
+                                            <div class="productList__itemColor productList__itemColor--three"></div>
+                                        </div>
+                                        <div class="productList__itemWrapper">
+                                            <span class="productList__itemTextQuantity">+28</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about row mt-5 mb-5 pt-5 pb-5">
+        <div class="col-8 mx-auto">
+            <div class="row">
+                <div class="col-12">
+                    <div class="row mb-5">
+                        <div class="col-7 mx-auto">
+                            <div class="about__info">
+                                <h2 class="text-center">ACERCA DE NOSOTROS</h2>
+                                <p class="text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                    Tempora, assumenda! Lorem ipsum dolor sit amet.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="about__galleryContainer">
+                                <div class="about__galleryWrapper about__galleryWrapper--one">
+                                    <div class="about__galleryContent">
+                                        <img class="about__galleryContent--image" src="../../assets/images/about-6.jpg"
+                                            alt="Backpack image" width="500">
+                                    </div>
+                                    <div class="about__galleryButtonContainer">
+                                        <div class="about__galleryButtonWrapper">
+                                            <button class="btn btn-light about__galleryButton">
+                                                <span>KANKEN: LA HISTORIA</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="about__galleryWrapper about__galleryWrapper--two">
+                                    <div class="about__galleryContent">
+                                        <img class="about__galleryContent--image" src="../../assets/images/about-2.jpg"
+                                            alt="Backpack image" width="500">
+                                    </div>
+                                    <div class="about__galleryButtonContainer">
+                                        <div class="about__galleryButtonWrapper">
+                                            <button class="btn btn-light about__galleryButton">
+                                                <span>G-1000</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="about__galleryWrapper about__galleryWrapper--three">
+                                    <div class="about__galleryContent">
+                                        <img class="about__galleryContent--image" src="../../assets/images/about-4.jpg"
+                                            alt="Backpack image" width="500">
+                                    </div>
+                                    <div class="about__galleryButtonContainer">
+                                        <div class="about__galleryButtonWrapper">
+                                            <button class="btn btn-light about__galleryButton">
+                                                <span>CONSEJOS PARA CUIDADO</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer row">
+        <div class="col-8 mx-auto">
+            <div class="row">
+                <div class="col-3">
+                    <img width="200" class="footer__logo" src="../../assets/favicon/logo.png" alt="" />
+                </div>
+                <div class="col-3">
+                    <h5 class="footer__title">SOBRE CARL</h5>
+                    <ul class="footer__list">
+                        <li class="footer__listItem">FAQ</li>
+                        <li class="footer__listItem">Contacto</li>
+                        <li class="footer__listItem">Términos del servicio</li>
+                        <li class="footer__listItem">Política de reembolso</li>
+                    </ul>
+                </div>
+                <div class="col-3">
+                    <h5 class="footer__title">SUSTENTABILIDAD</h5>
+                    <ul class="footer__list">
+                        <li class="footer__listItem">Principios</li>
+                        <li class="footer__listItem">Responsabilidad</li>
+                    </ul>
+                </div>
+                <div class="col-3">
+                    <h5 class="footer__title">LEGAL</h5>
+                    <ul class="footer__list">
+                        <li class="footer__listItem">Cambios y Devoluciones</li>
+                        <li class="footer__listItem">Términos y Condiciones</li>
+                        <li class="footer__listItem">Declaración de Privacidad</li>
+                        <li class="footer__listItem"><i class="footer__listItem--icon fa-solid fa-book-open"></i> Libro
+                            de Reclamaciones</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row footer__payment">
+                <div class="col-12">
+                    <i class="footer__paymentMethod fa-brands fa-cc-visa"></i>
+                    <i class="footer__paymentMethod fa-brands fa-cc-mastercard"></i>
+                    <i class="footer__paymentMethod fa-brands fa-cc-amex"></i>
+                    <i class="footer__paymentMethod fa-brands fa-cc-diners-club"></i>
+                </div>
+            </div>
+            <div class="row">
+                <p class="text-center">
+                    Copyright &copy; 2022 M&C. Todos los derechos reservados.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

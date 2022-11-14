@@ -1,0 +1,6 @@
+.header {
+    background-color: var(--background-principal);
+}
+.header__bagContainer {
+    gap: .375rem;
+}

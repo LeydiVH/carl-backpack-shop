@@ -1,0 +1,95 @@
+@import './components/header/header.css';
+@import './components/nav/nav.css';
+@import './components/footer/footer.css';
+@import './pages/home/home.css';
+@import './pages/product/product.css';
+
+:root {
+    --background-principal: #faeee7;
+    --background-secondary:#fffffe;
+    --headline: #33272a;
+    --sub-headline: #594a4e;
+    --paragraph: #594a4e;
+    --button: #ff8ba7;
+    --buttonText: #33272a;
+    --stroke: #33272a;
+    --main: #fffffe;
+    --highlight: #ff8ba7;
+    --secondary: #ffc6c7;
+    --tertiary: #c3f0ca;
+    --card-background: #594a4e;
+    --card-headline: #33272a;
+    --card-paragraph: #594a4e;
+    
+    /* Font*/
+    --baseFont: 'Nunito', sans-serif;
+
+       /* Text styles*/
+   
+   /* --title: 2rem;
+   --subtitle: 1rem;
+   --paragraph:;
+   --nav-item: ;
+   --nav-text: ;
+   --button-text:;
+   --title-card:;
+   --text-card: ;
+   --price-text-card: ;
+   --button-text-card: ;
+   --title-product: ;
+   --subtitle-product: ;
+   --price-text-product: ;
+   --info-product:; */
+
+   /**/
+   --navbar-height: 91.88px;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  scroll-behavior: smooth;
+  min-height: 100vh;
+  font-family: 'Nunito', sans-serif;
+}
+
+@media (max-width: 767.98px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 1199.98px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}
+
+
+
+/* ::-webkit-scrollbar {
+  background: #ccc;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #b3b3b3;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+::-webkit-scrollbar-thumb:active {
+  background-color: #999999;
+}
+
+::-webkit-scrollbar-track {
+  background: #e1e1e1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-track:hover,
+::-webkit-scrollbar-track:active {
+background: #d4d4d4;
+} */

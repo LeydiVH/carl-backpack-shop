@@ -1,0 +1,11 @@
+.navbar__direction {
+    flex-direction: row;
+}
+.navbar__wrapper {
+    gap: 3.125rem;
+    width: 100%;
+    text-align: center;
+}
+.navbar__wrapper li {
+    margin: 0;
+}
