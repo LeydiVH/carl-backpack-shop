@@ -1,0 +1,36 @@
+.cart {
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
+
+.cart__productQuantity {
+  height: 100%;
+  width: 120px;
+}
+
+.cart__buttonQuantityContainer {
+  width: 30px;
+}
+
+.cart__buttonQuantity {
+  padding: 0px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cart__buttonQuantity:hover {
+  cursor: pointer;
+}
+
+.cart__inputQuantity {
+  height: 100%;
+  width: 40%;
+}
+
+.cart__productImage {
+  width: 136px;
+  height: 136px;
+  background-color: red;
+}

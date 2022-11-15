@@ -3,6 +3,7 @@
 @import './components/footer/footer.css';
 @import './pages/home/home.css';
 @import './pages/product/product.css';
+@import './pages/cart/cart.css';
 
 :root {
     --background-principal: #faeee7;
