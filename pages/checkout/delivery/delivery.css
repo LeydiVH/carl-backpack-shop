@@ -1,0 +1,44 @@
+.delivery__logoImage {
+  height: 80px;
+}
+
+.delivery__logoContainer {
+  margin-top: 50px;
+  margin-bottom: 15px;
+}
+
+
+.delivery__breadcrumbs {
+  margin-bottom: 0;
+}
+
+.delivery__breadcrumbsContainer {
+  margin-bottom: 25px;
+}
+
+.delivery__policyContainer {
+  margin-top: 400px;
+}
+
+
+.delivery__productResume {
+  margin-top: 50px;
+}
+
+.delivery__productResumeImage {
+  object-fit: cover;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.delivery__cardInfoContainer {
+  margin-bottom: 40px;
+}
+
+.delivery__subtitle {
+  margin-bottom: 20px;
+}
+
+.delivery__container {
+  margin-bottom: 20px;
+}

@@ -1,0 +1,60 @@
+.information__logoImage {
+  height: 80px;
+}
+
+.information__logoContainer {
+  margin-top: 50px;
+  margin-bottom: 15px;
+}
+
+.information__breadcrumbs {
+  margin-bottom: 0;
+}
+
+.information__breadcrumbsContainer {
+  margin-bottom: 25px;
+}
+
+.information__titleInfo {
+  margin-bottom: 20px;
+}
+
+.information__titleInfo > h5 {
+  margin-bottom: 0;
+}
+
+.information__fieldsetInfo {
+  margin-bottom: 40px;
+}
+
+.information__titleDirection {
+  margin-bottom: 20px;
+}
+
+.information__titleDirection > h5 {
+  margin-bottom: 0;
+}
+
+select.form-select {
+  height: 38px;
+  line-height: 38px;
+  padding: 0rem 1.5rem;
+}
+
+.information__fieldsetDirection {
+  margin-bottom: 20px;
+}
+
+.information__policyContainer {
+  margin-top: 100px;
+}
+
+.information__productResume {
+  margin-top: 50px;
+}
+
+.information__productResumeImage {
+  object-fit: cover;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}

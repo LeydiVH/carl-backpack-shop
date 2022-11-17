@@ -1,0 +1,63 @@
+.payment__logoImage {
+  height: 80px;
+}
+
+.payment__logoContainer {
+  margin-top: 50px;
+  margin-bottom: 15px;
+}
+
+.payment__breadcrumbs {
+  margin-bottom: 0;
+}
+
+.payment__breadcrumbsContainer {
+  margin-bottom: 25px;
+}
+
+.payment__policyContainer {
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+.payment__productResume {
+  margin-top: 50px;
+}
+
+.payment__productResumeImage {
+  object-fit: cover;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.payment__cardInfo {
+  margin-bottom: 40px;
+}
+
+.payment__titleContainer {
+  margin-bottom: 20px;
+}
+
+.payment__method {
+  font-size: 24px;
+}
+
+.payment__intro {
+  font-size: 100px;
+}
+
+.payment__introDescription {
+  text-align: center;
+}
+
+.payment__cardPayment {
+  margin-bottom: 40px;
+}
+
+.payment__directionTitleContainer {
+  margin-bottom: 20px;
+}
+
+.payment__cardDirection {
+  margin-bottom: 20px;
+}
