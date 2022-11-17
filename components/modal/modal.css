@@ -1,0 +1,25 @@
+.modal__productQuantity {
+    height: 100%;
+    width: 100%;
+}
+
+.modal__productButtonQuantityContainer {
+    width: 30%;
+}
+
+.modal__productButtonQuantity {
+    padding: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal__productButtonQuantity:hover {
+    cursor: pointer;
+}
+
+.modal__productInputQuantity {
+    height: 100%;
+    width: 40%;
+}
