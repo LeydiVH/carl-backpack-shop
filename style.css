@@ -4,10 +4,16 @@
 @import './pages/home/home.css';
 @import './pages/product/product.css';
 @import './pages/cart/cart.css';
+@import './components/modal/modal.css';
+@import './pages/checkout/information/information.css';
+@import './pages/checkout/delivery/delivery.css';
+@import './pages/checkout/payment/payment.css';
 
 :root {
     --background-principal: #faeee7;
     --background-secondary:#fffffe;
+    --background-tertiary:#f8f8f8;
+    --background-quaternary:#fff4f4;
     --headline: #33272a;
     --sub-headline: #594a4e;
     --paragraph: #594a4e;
@@ -44,6 +50,11 @@
 
    /**/
    --navbar-height: 91.88px;
+
+   --gap-cardList: 1.5rem;
+   --gap-card: 1rem;
+   --gap-item: 1.5rem;
+   --gap-detail: 2rem;
 }
 
 * {
@@ -94,3 +105,31 @@ body {
 ::-webkit-scrollbar-track:active {
 background: #d4d4d4;
 } */
+
+/* Sections */
+.section {
+  padding: 6.5rem 0;
+}
+.section__title {
+  margin-bottom:3rem;
+}
+.section__description {
+  margin-bottom: 3rem;
+}
+.section__titleDecoration {
+  position: relative;
+
+}
+.section__titleDecoration::after {
+  content: '';
+  margin: 0 auto;
+  position: absolute;
+  display: block;
+  width: 96px; /*6rem*/
+  height: 4px;
+  background-color: var(--headline);
+  text-align: center;
+  bottom: -24px;
+  left: 0;
+  right: 0;
+}
