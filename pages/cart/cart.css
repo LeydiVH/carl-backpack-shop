@@ -29,8 +29,20 @@
   width: 40%;
 }
 
+.cart__productImageContainer {
+  width: 136px;
+  height: 136px;
+}
+
 .cart__productImage {
   width: 136px;
   height: 136px;
-  background-color: red;
+}
+
+.card__buttonDeleteProduct {
+  cursor: pointer;
+}
+
+.card__buttonDeleteProduct:hover {
+
 }

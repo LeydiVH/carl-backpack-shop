@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mochilitas Carlitos</title>
+    <title>Tu carrito — Carl Backpack Shop</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
@@ -110,21 +110,29 @@
                   <tr>
                     <td>
                       <div class="row">
-                        <div class="col-2">
-                          <i class="fa-solid fa-trash"></i>
+                        <div class="col-2 d-flex align-items-center justify-content-center">
+                          <i class="fa-solid fa-trash card__buttonDeleteProduct"></i>
                         </div>
-                        <div class="col-5">
-                          <div class="cart__productImage">
-                            <img src="" alt="" />
+                        <div class="col-5 d-flex align-items-center justify-content-center">
+                          <div class="cart__productImageContainer">
+                            <img class="card__productImage" width="136" src="../../assets/images/product-1.jpg" alt="" />
                           </div>
                         </div>
-                        <div class="col-5">
-                          <p>MOCHILA CARL 15 UNISEX</p>
-                          <p>COLOR: AUTUMNLEAF</p>
+                        <div class="col-5 d-flex flex-column align-items-center justify-content-center">
+                          <small class="pb-4">MOCHILA CARL 15 UNISEX</small>
+                          <p class="text-muted">COLOR: AUTUMNLEAF</p>
                         </div>
                       </div>
                     </td>
-                    <td>S/.849.00</td>
+                    <td>
+                      <div class="row">
+                        <div class="col-12 d-flex justify-content-center">
+                          <p class="mb-0">
+                            S/.849.00
+                          </p>
+                        </div>
+                      </div>
+                    </td>
                     <td>
                       <div class="row">
                         <div class="col">
@@ -179,23 +187,23 @@
             <div class="col-4">
               <div class="card bg-secondary mb-3" style="max-width: 20rem">
                 <div class="card-header">
-                    <h6>EXISTE 1 OBJETO EN TU CARRO DE COMPRAS</h6>
+                    <small><strong>EXISTE 1 OBJETO EN TU CARRO DE COMPRAS</strong></small>
                 </div>
                 <div class="card-body">
-                    <div class="row">
+                    <div class="row align-items-center justify-content-center">
                         <div class="col-4">
-                          <h5>TOTAL:</h5>
+                          <h6><strong>TOTAL:</strong></h6>
                         </div>
                         <div class="col-8">
-                          <p>S/1,380.00</p>
-                          </div>
+                          <small>S/1,380.00</small>
+                        </div>
                     </div>
                     <div class="row">
                       <div class="col-4">
-                        <h5>ENVÍO:</h5>
+                        <h6><strong>ENVÍO:</strong></h6>
                       </div>
                       <div class="col-8">
-                        <p>Gastos de envío y descuentos calculado al momento de pagar.</p>
+                        <small>Gastos de envío y descuentos calculado al momento de pagar.</small>
                       </div>
                   </div>
                 </div>
