@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mochilitas Carlitos</title>
+    <title>Carl Backpack Shop</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
@@ -25,18 +25,16 @@
         <div class="col-8 mx-auto">
             <div class="row justify-content-around align-items-center">
                 <div class="col-2 text-left">
-                    <img src="./assets/favicon/logo.png" alt="E-commerce Carl logo" width="150" />
+                    <img id="homeLink" src="./assets/favicon/logo.png" alt="E-commerce Carl logo" width="150" />
                 </div>
                 <nav class="col-8 navbar d-flex justify-content-center align-items-center nav__container">
                     <ul class="navbar-nav navbar__direction navbar__wrapper d-flex justify-content-center align-items-center">
-                        <li class="nav-item"><a class="nav-link" href="#">Backpacks</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Loncheras</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Cartucheras</a></li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Cubre Mochilas</a>
-                        </li>
-                        <li class="nav-item"><a class="nav-link" href="#">All</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Sobre Carl</a></li>
+                        <li id="backpackLink" class="nav-item"><a class="nav-link" href="#">Backpacks</a></li>
+                        <li id="lunchboxLink" class="nav-item"><a class="nav-link" href="#">Loncheras</a></li>
+                        <li id="pencilCaseLink" class="nav-item"> <a class="nav-link" href="#">Cartucheras</a></li>
+                        <li id="rucksackLink" class="nav-item"><a class="nav-link" href="#">Mochilas</a></li>
+                        <li id="allLink" class="nav-item"><a class="nav-link" href="#">All</a></li>
+                        <li id="aboutLink" class="nav-item"><a class="nav-link" href="#">Sobre Carl</a></li>
                     </ul>
                 </nav>
                 <div class="col-2">
@@ -47,7 +45,7 @@
                             </a>
                         </div>
                         <div class="col-8 pr-0">
-                            <a class="text-decoration-none d-flex align-items-center justify-content-end header__bagContainer" href="#">
+                            <a id="cartLink" class="text-decoration-none d-flex align-items-center justify-content-end header__bagContainer" href="#">
                                 <i class="fa-solid fa-bag-shopping"></i>
                                 <span>Mi carrito</span>
                             </a>
@@ -121,14 +119,18 @@
             </div>
         </div>
     </footer>
-
-
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
         crossorigin="anonymous"></script>
+    <script src="./data/backpacks-data.js" type="module"></script>
+    <script src="./data/bag-data.js" type="module"></script>
+    <script src="./data/cartridgebox-data.js" type="module"></script>
+    <script src="./data/lunchbox-data.js" type="module"></script>
+    <script src="./utils/storage.utils.js" type="module"></script>
+    <script src="./components/header/header.js" type="module"></script>
 </body>
 
 </html>
