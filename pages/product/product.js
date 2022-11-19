@@ -5,7 +5,7 @@ import { setCartInformation } from '../../components/modal/modal.js';
 window.addEventListener('load', () => {
   const productSelected = getItem('productSelected');
   if(!productSelected) {
-    location.href = '/pages/home/home.html';
+    location.href = '/carl-backpack-shop/pages/home/home.html';
   } else {
     setProductInformation();
   }

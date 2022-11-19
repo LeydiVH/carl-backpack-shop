@@ -140,7 +140,7 @@ function finishPayment() {
 
 function goToHome() {
   // limpiar local
-  location.href = '/pages/home/home.html';
+  location.href = '/carl-backpack-shop/pages/home/home.html';
 }
 
 function setButtonsAction() {

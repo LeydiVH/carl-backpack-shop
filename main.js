@@ -1,3 +1,3 @@
 window.addEventListener('load', ()=> {
-    location.href = '/pages/home/home.html';
+    location.href = '/carl-backpack-shop/pages/home/home.html';
 })

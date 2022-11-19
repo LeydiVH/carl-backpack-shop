@@ -190,7 +190,7 @@ function goToProductPage() {
   console.log(bagSelected);
   setItem('productSelected', bagSelected);
   
-  location.href = '/pages/product/product.html';
+  location.href = '/carl-backpack-shop/pages/product/product.html';
 
 }
 
@@ -206,18 +206,18 @@ function setButtonActions() {
 
 function goToBackpack() {
   setItem('list', 'backpack');
-  location.href = '/pages/results/results.html';
+  location.href = '/carl-backpack-shop/pages/results/results.html';
 
 }
 
 function goToLunchBox() {
   setItem('list', 'lunchbox');
-  location.href = '/pages/results/results.html';
+  location.href = '/carl-backpack-shop/pages/results/results.html';
 }
 
 function goToBag() {
   setItem('list', 'rucksack');
-  location.href = '/pages/results/results.html';
+  location.href = '/carl-backpack-shop/pages/results/results.html';
 }
 
 setButtonActions();

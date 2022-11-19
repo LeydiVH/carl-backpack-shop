@@ -40,12 +40,12 @@ function setButtonsActions() {
 }
 
 function goToCheckout() {
-  location.href = '/pages/checkout/information/information.html';
+  location.href = '/carl-backpack-shop/pages/checkout/information/information.html';
 }
 
 function goToAllProducts() {
   setItem('list', 'all');
-  location.href = '/pages/results/results.html';
+  location.href = '/carl-backpack-shop/pages/results/results.html';
 }
 
 

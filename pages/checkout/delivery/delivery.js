@@ -145,11 +145,11 @@ function setTypeDelivery() {
 }
 
 function goToPayment() {
-  location.href = '/pages/checkout/payment/payment.html';
+  location.href = '/carl-backpack-shop/pages/checkout/payment/payment.html';
 }
 
 function goToInformation() {
-  location.href = '/pages/checkout/information/information.html';
+  location.href = '/carl-backpack-shop/pages/checkout/information/information.html';
 }
 
 

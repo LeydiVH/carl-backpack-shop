@@ -44,7 +44,7 @@ function setProducts() {
     };
     break;
     default: {
-      location.href = '/pages/home/home.html';
+      location.href = '/carl-backpack-shop/pages/home/home.html';
     }
   }
 
@@ -235,7 +235,7 @@ function goToProductPage() {
   console.log(bagSelected);
   setItem('productSelected', bagSelected);
   
-  location.href = '/pages/product/product.html';
+  location.href = '/carl-backpack-shop/pages/product/product.html';
 }
 
 setProducts();

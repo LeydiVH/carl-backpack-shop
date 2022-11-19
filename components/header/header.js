@@ -22,39 +22,39 @@ function setLinkActions() {
 
 function goToRucksackList() {
   setItem('list', 'rucksack');
-  location.href = '/pages/results/results.html';
+  location.href = '/carl-backpack-shop/pages/results/results.html';
 }
 
 function goToBackpackList() {
   setItem('list', 'backpack');
-  location.href = '/pages/results/results.html';
+  location.href = '/carl-backpack-shop/pages/results/results.html';
 }
 
 function goToLunchboxList() {
   setItem('list', 'lunchbox');
-  location.href = '/pages/results/results.html';
+  location.href = '/carl-backpack-shop/pages/results/results.html';
 }
 
 function goToPencilCaseList() {
   setItem('list', 'pencilCase');
-  location.href = '/pages/results/results.html';
+  location.href = '/carl-backpack-shop/pages/results/results.html';
 }
 
 function goToAllLink() {
   setItem('list', 'all');
-  location.href = '/pages/results/results.html';
+  location.href = '/carl-backpack-shop/pages/results/results.html';
 }
 
 function goToAbout() {
-  location.href = '/pages/about/about.html';
+  location.href = '/carl-backpack-shop/pages/about/about.html';
 }
 
 function goToHome() {
-  location.href = '/pages/home/home.html';
+  location.href = '/carl-backpack-shop/pages/home/home.html';
 }
 
 function goToCart() {
-  location.href = '/pages/cart/cart.html';
+  location.href = '/carl-backpack-shop/pages/cart/cart.html';
 }
 
 setLinkActions();

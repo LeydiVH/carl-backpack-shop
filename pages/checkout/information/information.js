@@ -221,12 +221,12 @@ function saveCheckoutInformation() {
   if(isFormValid) {
     const checkoutInformation = getCheckoutInformation();
     setItem('information', checkoutInformation);
-    location.href = '/pages/checkout/delivery/delivery.html';
+    location.href = '/carl-backpack-shop/pages/checkout/delivery/delivery.html';
   }
 }
 
 function goToCart() {
-  location.href = '/pages/cart/cart.html';
+  location.href = '/carl-backpack-shop/pages/cart/cart.html';
 }
 
 function getCheckoutInformation() {
