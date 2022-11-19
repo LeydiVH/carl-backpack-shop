@@ -33,64 +33,41 @@
   </head>
 
   <body class="container-fluid">
-    <header class="header row">
+    <header class=" header row">
       <div class="col-8 mx-auto">
-        <div class="row justify-content-around align-items-center">
-          <div class="col-2 text-left">
-            <img
-              src="../../assets/favicon/logo.png"
-              alt="E-commerce Carl logo"
-              width="150"
-            />
-          </div>
-          <nav
-            class="col-8 navbar d-flex justify-content-center align-items-center nav__container"
-          >
-            <ul
-              class="navbar-nav navbar__direction navbar__wrapper d-flex justify-content-center align-items-center"
-            >
-              <li class="nav-item">
-                <a class="nav-link" href="#">Backpacks</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Loncheras</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Cartucheras</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Cubre Mochilas</a>
-              </li>
-              <li class="nav-item"><a class="nav-link" href="#">All</a></li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Sobre Carl</a>
-              </li>
-            </ul>
-          </nav>
-          <div class="col-2">
-            <div class="row align-items-center justify-content-center">
-              <div class="col-4 pr-0">
-                <a
-                  class="text-decoration-none d-flex align-items-center justify-content-end"
-                  href="#"
-                >
-                  <i class="fa-solid fa-magnifying-glass"></i>
-                </a>
+          <div class="row justify-content-around align-items-center">
+              <div class="col-2 text-left">
+                  <img id="homeLink" src="../../assets/favicon/logo.png" alt="E-commerce Carl logo" width="150" />
               </div>
-              <div class="col-8 pr-0">
-                <a
-                  class="text-decoration-none d-flex align-items-center justify-content-end header__bagContainer"
-                  href="#"
-                >
-                  <i class="fa-solid fa-bag-shopping"></i>
-                  <span>Mi carrito</span>
-                </a>
+              <nav class="col-8 navbar d-flex justify-content-center align-items-center nav__container">
+                  <ul class="navbar-nav navbar__direction navbar__wrapper d-flex justify-content-center align-items-center">
+                      <li id="backpackLink" class="nav-item"><a class="nav-link" href="#">Backpacks</a></li>
+                      <li id="lunchboxLink" class="nav-item"><a class="nav-link" href="#">Loncheras</a></li>
+                      <li id="pencilCaseLink" class="nav-item"> <a class="nav-link" href="#">Cartucheras</a></li>
+                      <li id="rucksackLink" class="nav-item"><a class="nav-link" href="#">Mochilas</a></li>
+                      <li id="allLink" class="nav-item"><a class="nav-link" href="#">All</a></li>
+                      <li id="aboutLink" class="nav-item"><a class="nav-link" href="#">Sobre Carl</a></li>
+                  </ul>
+              </nav>
+              <div class="col-2">
+                  <div class="row align-items-center justify-content-center">
+                      <div class="col-4 pr-0">
+                          <a class="text-decoration-none d-flex align-items-center justify-content-end" href="#">
+                              <i class="fa-solid fa-magnifying-glass"></i>
+                          </a>
+                      </div>
+                      <div class="col-8 pr-0">
+                          <a id="cartLink" class="text-decoration-none d-flex align-items-center justify-content-end header__bagContainer" href="#">
+                              <i class="fa-solid fa-bag-shopping"></i>
+                              <span>Mi carrito</span>
+                          </a>
+                      </div>
+                  </div>
               </div>
-            </div>
           </div>
-        </div>
       </div>
-    </header>
+
+  </header>
 
     <section class="cart">
       <div class="row">
@@ -280,5 +257,7 @@
       integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
       crossorigin="anonymous"
     ></script>
+    <script src="../../utils/storage.utils.js" type="module"></script>
+    <script src="../../components/header/header.js" type="module"></script>
   </body>
 </html>
