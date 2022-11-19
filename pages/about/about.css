@@ -1,0 +1,46 @@
+.about__title {
+  margin-top: 3rem;
+}
+
+.about__blockquoteContainer {
+  margin: 3rem 0;
+}
+
+.about__blockquoteWrapper {
+  margin: 0;
+}
+
+.about__blockquote {
+  background-color: var(--background-quaternary);
+  margin: 0;
+  padding: 2rem;
+  border-radius: .5rem;
+}
+
+.about__blockquoteTextContainer {
+  margin: 0;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.about__blockquoteTextContainer i {
+  margin: 0;
+  font-size: var(--blockquote);
+}
+
+.about__blockquoteText {
+  margin: 0;
+  font-size: var(--blockquoteText);
+}
+
+.about__imageOne {
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.about__imageTwo {
+  height: 700px;
+  width: 100%;
+  object-fit: cover;
+}
