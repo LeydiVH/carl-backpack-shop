@@ -22,4 +22,6 @@
 .modal__productInputQuantity {
     height: 100%;
     width: 40%;
+    padding: 1rem;
+    text-align: center;
 }
