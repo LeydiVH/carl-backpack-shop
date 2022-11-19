@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>MOCHILA CLASSIC — Carl Backpack Shop </title>
+  <title>PRODUCTOS — Carl Backpack Shop </title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
@@ -21,51 +21,42 @@
 </head>
 
 <body class="container-fluid">
-  <header class="header row">
+  <header class=" header row">
     <div class="col-8 mx-auto">
-      <div class="row justify-content-around align-items-center">
-        <div class="col-2 text-left">
-          <img src="../../assets/favicon/logo.png" alt="E-commerce Carl logo" width="150" />
-        </div>
-        <nav class="col-8 navbar d-flex justify-content-center align-items-center nav__container">
-          <ul class="navbar-nav navbar__direction navbar__wrapper d-flex justify-content-center align-items-center">
-            <li class="nav-item">
-              <a class="nav-link" href="#">Backpacks</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Loncheras</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Cartucheras</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Cubre Mochilas</a>
-            </li>
-            <li class="nav-item"><a class="nav-link" href="#">All</a></li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Sobre Carl</a>
-            </li>
-          </ul>
-        </nav>
-        <div class="col-2">
-          <div class="row align-items-center justify-content-center">
-            <div class="col-4 pr-0">
-              <a class="text-decoration-none d-flex align-items-center justify-content-end" href="#">
-                <i class="fa-solid fa-magnifying-glass"></i>
-              </a>
+        <div class="row justify-content-around align-items-center">
+            <div class="col-2 text-left">
+                <img id="homeLink" src="../../assets/favicon/logo.png" alt="E-commerce Carl logo" width="150" />
             </div>
-            <div class="col-8 pr-0">
-              <a class="text-decoration-none d-flex align-items-center justify-content-end header__bagContainer"
-                href="../cart/cart.html">
-                <i class="fa-solid fa-bag-shopping"></i>
-                <span>Mi carrito</span>
-              </a>
+            <nav class="col-8 navbar d-flex justify-content-center align-items-center nav__container">
+                <ul class="navbar-nav navbar__direction navbar__wrapper d-flex justify-content-center align-items-center">
+                    <li id="backpackLink" class="nav-item"><a class="nav-link" href="#">Backpacks</a></li>
+                    <li id="lunchboxLink" class="nav-item"><a class="nav-link" href="#">Loncheras</a></li>
+                    <li id="pencilCaseLink" class="nav-item"> <a class="nav-link" href="#">Cartucheras</a></li>
+                    <li id="rucksackLink" class="nav-item"><a class="nav-link" href="#">Mochilas</a></li>
+                    <li id="allLink" class="nav-item"><a class="nav-link" href="#">All</a></li>
+                    <li id="aboutLink" class="nav-item"><a class="nav-link" href="#">Sobre Carl</a></li>
+                </ul>
+            </nav>
+            <div class="col-2">
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-4 pr-0">
+                        <a class="text-decoration-none d-flex align-items-center justify-content-end" href="#">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </a>
+                    </div>
+                    <div class="col-8 pr-0">
+                        <a id="cartLink" class="text-decoration-none d-flex align-items-center justify-content-end header__bagContainer" href="#">
+                            <i class="fa-solid fa-bag-shopping"></i>
+                            <span>Mi carrito</span>
+                        </a>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
     </div>
-  </header>
+
+</header>
+
 
   <section class="product section row justify-content-center">
     <div class="col-8">
@@ -75,19 +66,19 @@
             <div class="col-12">
               <div class="product__imageGeneralContainer">
                 <div class="product__imageContainer product__imageContainer--one">
-                  <img src="../../assets/images/product/product-image-1.png"
+                  <img id="mainImageProduct" src="../../assets/images/placeholder-image.jpg"
                     class="product__imageProduct product__imagePrincipal" alt="Carl product" width="250" />
                 </div>
                 <div class="product__imageContainer product__imageContainer--two">
-                  <img src="../../assets/images/product/product-image-1.png"
+                  <img id="secondaryImageProduct" src="../../assets/images/placeholder-image.jpg"
                     class="product__imageProduct product__imagePrincipal" alt="Carl product" width="250" />
                 </div>
               </div>
             </div>
           </div>
           <div class="row product__images">
-            <div class="col-12 d-flex product__imageProductContainer">
-              <div class="product__imageProductWrapper">
+            <div id="productImagesContainer" class="col-12 d-flex product__imageProductContainer">
+              <!-- <div class="product__imageProductWrapper">
                 <img src="../../assets/images/product/product-image-1.png" alt="Carl product"
                   class="product__imageProduct" width="150" />
               </div>
@@ -106,64 +97,31 @@
               <div class="product__imageProductWrapper">
                 <img src="../../assets/images/product/product-image-5.png" alt="Carl product"
                   class="product__imageProduct product__imageProductAnimation" width="150" />
-              </div>
+              </div> -->
             </div>
           </div>
         </div>
         <div class="col-6 product__detailContainer">
           <div class="row product__titleContainer">
             <div class="col-12">
-              <h3>MOCHILA CLASSIC</h3>
+              <h3 id="titleProduct">MOCHILA CLASSIC</h3>
             </div>
           </div>
           <div class="row product__priceContainer">
             <div class="col-12">
-              <h4>S/ 399.00</h4>
+              <h4 id="priceProduct">S/ 399.00</h4>
             </div>
           </div>
           <div class="row">
             <div class="col-12">
-              <p>COLOR: LIGHT OAK</p>
+              <p id="colorProduct">COLOR: LIGHT OAK</p>
             </div>
           </div>
           <div class="row">
-            <div class="col-8 d-flex flex-wrap">
-              <div class="product__colorContainer">
+            <div id="productColors" class="col-8 d-flex flex-wrap">
+              <!-- <div class="product__colorContainer">
                 <div class="product__color"></div>
-              </div>
-              <div class="product__colorContainer">
-                <div class="product__color"></div>
-              </div>
-              <div class="product__colorContainer">
-                <div class="product__color"></div>
-              </div>
-              <div class="product__colorContainer">
-                <div class="product__color"></div>
-              </div>
-              <div class="product__colorContainer">
-                <div class="product__color"></div>
-              </div>
-              <div class="product__colorContainer">
-                <div class="product__color"></div>
-              </div>
-              <div class="product__colorContainer">
-                <div class="product__color"></div>
-              </div>
-              <div class="product__colorContainer">
-                <div class="product__color"></div>
-              </div>
-              <div class="product__colorContainer">
-                <div class="product__color"></div>
-              </div>
-              <div class="product__colorContainer">
-                <div class="product__color"></div>
-              </div>
-              <div class="product__colorContainer">
-                <div class="product__color"></div>
-              </div>
-              <div class="product__colorContainer">
-                <div class="product__color"></div>
-              </div>
+              </div> -->
             </div>
           </div>
           <div class="row">
@@ -174,13 +132,13 @@
           <div class="row">
             <div class="col-3">
               <div class="input-group product__quantity">
-                <div class="input-group-prepend product__buttonQuantityContainer">
+                <div id="buttonDeleteProduct" class="input-group-prepend product__buttonQuantityContainer">
                   <div class="input-group-text product__buttonQuantity">
                     <i class="fa-solid fa-minus"></i>
                   </div>
                 </div>
-                <input value="1" type="text" class="form-control product__inputQuantity" />
-                <div class="input-group-append product__buttonQuantityContainer">
+                <input id="quantityProduct" value="1" readonly type="text" class="form-control product__inputQuantity" />
+                <div id="buttonAddProduct" class="input-group-append product__buttonQuantityContainer">
                   <div class="input-group-text product__buttonQuantity">
                     <i class="fa-solid fa-plus"></i>
                   </div>
@@ -188,7 +146,7 @@
               </div>
             </div>
             <div class="col-6">
-              <button class="btn btn-block btn-primary" data-toggle="modal" data-target="#modalProductToCard">
+              <button id="buttonOpenCartModal" class="btn btn-block btn-primary" data-toggle="modal" data-target="#modalProductToCard">
                 AGREGAR AL CARRITO
               </button>
             </div>
@@ -204,7 +162,7 @@
           </div>
           <div class="row">
             <div class="col-12">
-              <p>
+              <p id="productDescription">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Reprehenderit ullam id impedit, corrupti quaerat magnam error
                 deserunt quo vel labore cum recusandae. Provident cumque hic
@@ -224,18 +182,18 @@
               </p>
             </div>
           </div>
-          <div class="row">
-            <div class="col-3">
+          <div class="row" id="productSizes">
+            <!-- <div class="col-3">
               <h6>MEDIDAS</h6>
               <p>Lorem ipsum dolor sit amet.</p>
               <p>Lorem, ipsum dolor.</p>
-            </div>
+            </div> -->
           </div>
-          <div class="row">
-            <div class="col-3">
+          <div class="row" id="productMaterial">
+            <!-- <div class="col-3">
               <h6>MATERIAL</h6>
               <p>Lorem ipsum dolor sit amet.</p>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
@@ -302,7 +260,7 @@
           <div class="d-flex align-items-center">
             <h5 class="mb-0"><strong>SU PEDIDO</strong></h5>
             <small class="mb-0 mx-2">|</small>
-            <small class="mb-0"><strong>EXISTE 1 PRODUCTO EN SU CARRITO</strong></small>
+            <small id="quantityCartProducts" class="mb-0"><strong>EXISTE 1 PRODUCTO EN SU CARRITO</strong></small>
           </div>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
@@ -312,7 +270,7 @@
           <div class="row">
             <div class="col-12">
               <div class="alert alert-dismissible alert-success">
-                <small><strong><i class="fa-solid fa-bell"></i> MOCHILA CARL ART - Landsort</strong> - ha sido añadido
+                <small><strong id="nameCartProductAdded"><i class="fa-solid fa-bell"></i> MOCHILA CARL ART - Landsort</strong> - ha sido añadido
                   al carrito de la compra.</small>
               </div>
             </div>
@@ -321,62 +279,64 @@
             <div class="col-12">
               <div class="card">
                 <div class="card-body">
-                  <div class="row">
-                    <div class="col-6">
-                      <div class="row align-items-center">
-                        <div class="col-2">
-                          <i class="fa-solid fa-trash"></i>
-                        </div>
-                        <div class="col-4">
-                          <img src="../../assets/images/product/product-image-1.png" alt="Carl product" width="60">
-                        </div>
-                        <div class="col-6">
-                          <h6><strong>MOCHILA CARL ART</strong></h6>
-                          <h6>COLOR: LANDSWORK</h6>
+                  <div id="cartProductList">
+                    <div class="row">
+                      <div class="col-6">
+                        <div class="row align-items-center">
+                          <div class="col-2">
+                            <i class="fa-solid fa-trash"></i>
+                          </div>
+                          <div class="col-4">
+                            <img src="../../assets/images/placeholder-image.jpg" alt="Carl product" width="60">
+                          </div>
+                          <div class="col-6">
+                            <h6><strong>MOCHILA CARL ART</strong></h6>
+                            <h6>COLOR: LANDSWORK</h6>
+                          </div>
                         </div>
                       </div>
-                    </div>
-                    <div class="col-6">
-                      <div class="row align-items-center justify-content-center text-center">
-                        <div class="col-3 te">
-                          <small><strong>S/399.00</strong></small>
-                        </div>
-                        <div class="col-5">
-                          <div class="row">
-                            <div class="input-group modal__productQuantity">
-                              <div class="input-group-prepend modal__productButtonQuantityContainer">
-                                <div class="input-group-text modal__productButtonQuantity">
-                                  <i class="fa-solid fa-minus"></i>
+                      <div class="col-6">
+                        <div class="row align-items-center justify-content-center text-center">
+                          <div class="col-3">
+                            <small><strong>S/399.00</strong></small>
+                          </div>
+                          <div class="col-5">
+                            <div class="row">
+                              <div class="input-group modal__productQuantity">
+                                <div class="input-group-prepend modal__productButtonQuantityContainer">
+                                  <div class="input-group-text modal__productButtonQuantity">
+                                    <i class="fa-solid fa-minus"></i>
+                                  </div>
                                 </div>
-                              </div>
-                              <input value="1" type="text" class="form-control modal__productInputQuantity" />
-                              <div class="input-group-append modal__productButtonQuantityContainer">
-                                <div class="input-group-text modal__productButtonQuantity">
-                                  <i class="fa-solid fa-plus"></i>
+                                <input value="1" type="text" class="form-control modal__productInputQuantity" />
+                                <div class="input-group-append modal__productButtonQuantityContainer">
+                                  <div class="input-group-text modal__productButtonQuantity">
+                                    <i class="fa-solid fa-plus"></i>
+                                  </div>
                                 </div>
                               </div>
                             </div>
                           </div>
-                        </div>
-                        <div class="col-4">
-                          <small><strong>S/399.00</strong></small>
+                          <div class="col-4">
+                            <small><strong>S/399.00</strong></small>
+                          </div>
                         </div>
                       </div>
                     </div>
                   </div>
                   <div class="row">
                     <div class="col-12">
-                      <p class="mb-0 text-right">TOTAL: S/399.00</p>
+                      <p id="totalCartPrice" class="mb-0 text-right">TOTAL: S/399.00</p>
                     </div>
                   </div>
                   <div class="row">
                     <div class="col-6">
-                      <button class="btn btn-primary btn-block" href="../checkout/information/information.html">
+                      <button id="buttonGoToCheckout" class="btn btn-primary btn-block" >
                         IR A CHECKOUT
                       </button>
                     </div>
                     <div class="col-6">
-                      <button class="btn btn-secondary btn-block">
+                      <button id="buttonGoToAllProducts" class="btn btn-secondary btn-block">
                         SEGUIR COMPRANDO
                       </button>
                     </div>
@@ -401,6 +361,10 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
     crossorigin="anonymous"></script>
+    <script src="../../utils/storage.utils.js" type="module"></script>
+    <script src="../../components/modal/modal.js" type="module"></script>
+    <script src="../../components/header/header.js" type="module"></script>
+    <script src="./product.js" type="module"></script>
 </body>
 
 </html>

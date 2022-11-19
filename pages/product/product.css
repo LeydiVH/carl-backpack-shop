@@ -90,6 +90,7 @@
 .product__inputQuantity {
   height: 100%;
   width: 40%;
+  padding: 1rem;
 }
 
 .product__imageProductContainer {
