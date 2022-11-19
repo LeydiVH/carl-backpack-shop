@@ -1,3 +1,4 @@
+import { getPath } from '../../../utils/redirect.util.js';
 import {getItem, setItem} from '../../../utils/storage.utils.js'
 
 function setCartInfo() {
@@ -145,11 +146,11 @@ function setTypeDelivery() {
 }
 
 function goToPayment() {
-  location.href = '/carl-backpack-shop/pages/checkout/payment/payment.html';
+  location.href = `${getPath()}/pages/checkout/payment/payment.html`;
 }
 
 function goToInformation() {
-  location.href = '/carl-backpack-shop/pages/checkout/information/information.html';
+  location.href = `${getPath()}/pages/checkout/information/information.html`;
 }
 
 

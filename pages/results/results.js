@@ -3,6 +3,7 @@ import {BACKPACKS_DATA} from '../../data/backpacks-data.js';
 import {BAG_DATA} from '../../data/bag-data.js';
 import {CARTRIDGEBOX_DATA} from '../../data/cartridgebox-data.js';
 import {LUNCHBOX_DATA} from '../../data/lunchbox-data.js';
+import { getPath } from '../../utils/redirect.util.js';
 
 
 function setProducts() {
@@ -44,7 +45,7 @@ function setProducts() {
     };
     break;
     default: {
-      location.href = '/carl-backpack-shop/pages/home/home.html';
+      location.href = `${getPath()}/pages/home/home.html`;
     }
   }
 
@@ -235,7 +236,7 @@ function goToProductPage() {
   console.log(bagSelected);
   setItem('productSelected', bagSelected);
   
-  location.href = '/carl-backpack-shop/pages/product/product.html';
+  location.href = `${getPath()}/pages/product/product.html`;
 }
 
 setProducts();

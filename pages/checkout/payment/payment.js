@@ -1,3 +1,4 @@
+import { getPath } from '../../../utils/redirect.util.js';
 import {getItem, setItem} from '../../../utils/storage.utils.js'
 
 
@@ -140,7 +141,7 @@ function finishPayment() {
 
 function goToHome() {
   // limpiar local
-  location.href = '/carl-backpack-shop/pages/home/home.html';
+  location.href = `${getPath()}/pages/home/home.html`;
 }
 
 function setButtonsAction() {

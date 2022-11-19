@@ -1,3 +1,4 @@
+import { getPath } from '../../../utils/redirect.util.js';
 import {getItem, setItem} from '../../../utils/storage.utils.js'
 
 function validateEmailPhoneInput() {
@@ -221,12 +222,12 @@ function saveCheckoutInformation() {
   if(isFormValid) {
     const checkoutInformation = getCheckoutInformation();
     setItem('information', checkoutInformation);
-    location.href = '/carl-backpack-shop/pages/checkout/delivery/delivery.html';
+    location.href = `${getPath()}/pages/checkout/delivery/delivery.html`;
   }
 }
 
 function goToCart() {
-  location.href = '/carl-backpack-shop/pages/cart/cart.html';
+  location.href = `${getPath()}/pages/cart/cart.html`;
 }
 
 function getCheckoutInformation() {

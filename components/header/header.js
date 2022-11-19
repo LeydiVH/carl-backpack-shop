@@ -1,3 +1,4 @@
+import { getPath } from '../../utils/redirect.util.js';
 import {setItem} from '../../utils/storage.utils.js'
 
 function setLinkActions() {
@@ -22,39 +23,39 @@ function setLinkActions() {
 
 function goToRucksackList() {
   setItem('list', 'rucksack');
-  location.href = '/carl-backpack-shop/pages/results/results.html';
+  location.href = `${getPath()}/pages/results/results.html`;
 }
 
 function goToBackpackList() {
   setItem('list', 'backpack');
-  location.href = '/carl-backpack-shop/pages/results/results.html';
+  location.href = `${getPath()}/pages/results/results.html`;
 }
 
 function goToLunchboxList() {
   setItem('list', 'lunchbox');
-  location.href = '/carl-backpack-shop/pages/results/results.html';
+  location.href = `${getPath()}/pages/results/results.html`;
 }
 
 function goToPencilCaseList() {
   setItem('list', 'pencilCase');
-  location.href = '/carl-backpack-shop/pages/results/results.html';
+  location.href = `${getPath()}/pages/results/results.html`;
 }
 
 function goToAllLink() {
   setItem('list', 'all');
-  location.href = '/carl-backpack-shop/pages/results/results.html';
+  location.href = `${getPath()}/pages/results/results.html`;
 }
 
 function goToAbout() {
-  location.href = '/carl-backpack-shop/pages/about/about.html';
+  location.href = `${getPath()}/pages/about/about.html`;
 }
 
 function goToHome() {
-  location.href = '/carl-backpack-shop/pages/home/home.html';
+  location.href = `${getPath()}/pages/home/home.html`;
 }
 
 function goToCart() {
-  location.href = '/carl-backpack-shop/pages/cart/cart.html';
+  location.href = `${getPath()}/pages/cart/cart.html`;
 }
 
 setLinkActions();

@@ -1,11 +1,12 @@
 import { getItem, setItem } from '../../utils/storage.utils.js';
 import { setCartInformation } from '../../components/modal/modal.js';
+import { getPath } from '../../utils/redirect.util.js';
 
 
 window.addEventListener('load', () => {
   const productSelected = getItem('productSelected');
   if(!productSelected) {
-    location.href = '/carl-backpack-shop/pages/home/home.html';
+    location.href = `${getPath()}/pages/home/home.html`;
   } else {
     setProductInformation();
   }
