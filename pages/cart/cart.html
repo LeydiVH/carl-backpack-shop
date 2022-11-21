@@ -34,12 +34,18 @@
 
   <body class="container-fluid">
     <header class=" header row">
-      <div class="col-8 mx-auto">
-          <div class="row justify-content-around align-items-center">
-              <div class="col-2 text-left">
-                  <img id="homeLink" src="../../assets/favicon/logo.png" alt="E-commerce Carl logo" width="150" />
+      <div class="col-11 col-sm-10 col-md-10 col-lg-10 col-xl-9 col-ccl-9 mx-auto">
+          <div class="row header__content justify-content-between align-items-center">
+              <div class="col-2 col-sm-2 col-md-2 pl-0 navbar__bar">
+                  <button class="navbar__barButton">
+                      <i class="fa-solid fa-bars navbar__iconMenu"></i>
+                  </button>
               </div>
-              <nav class="col-8 navbar d-flex justify-content-center align-items-center nav__container">
+              <div class="col-8 col-sm-8 col-md-2 col-lg-2 col-xl-2 pl-0 text-left navbar__logoContainer">
+                  <img class="navbar__logo" id="homeLink" src="../../assets/favicon/logo.png" alt="E-commerce Carl logo" width="150" />
+              </div>
+              
+              <nav class="col-8 col-md-8 col-lg-9 col-xl-8 col-ccl-9 navbar navbar__collapse d-flex justify-content-center align-items-center navbar__container">
                   <ul class="navbar-nav navbar__direction navbar__wrapper d-flex justify-content-center align-items-center">
                       <li id="backpackLink" class="nav-item"><a class="nav-link" href="#">Backpacks</a></li>
                       <li id="lunchboxLink" class="nav-item"><a class="nav-link" href="#">Loncheras</a></li>
@@ -49,17 +55,17 @@
                       <li id="aboutLink" class="nav-item"><a class="nav-link" href="#">Sobre Carl</a></li>
                   </ul>
               </nav>
-              <div class="col-2">
+              <div class="col-2 col-sm-2 col-md-2 col-lg-1 col-xl-2 col-ccl-1">
                   <div class="row align-items-center justify-content-center">
-                      <div class="col-4 pr-0">
-                          <a class="text-decoration-none d-flex align-items-center justify-content-end" href="#">
-                              <i class="fa-solid fa-magnifying-glass"></i>
+                      <div class="col-4 col-ccl-6 pr-0 navbar__iconContainer">
+                          <a class="text-decoration-none d-flex align-items-center navbar__iconWrapper" href="#">
+                              <i class="fa-solid fa-magnifying-glass navbar__iconSearch"></i>
                           </a>
                       </div>
-                      <div class="col-8 pr-0">
-                          <a id="cartLink" class="text-decoration-none d-flex align-items-center justify-content-end header__bagContainer" href="#">
-                              <i class="fa-solid fa-bag-shopping"></i>
-                              <span>Mi carrito</span>
+                      <div class="col-8 col-ccl-6 pr-0 navbar__iconContainer">
+                          <a id="cartLink" class="text-decoration-none d-flex align-items-center navbar__iconWrapper header__bagContainer" href="#">
+                              <i class="fa-solid fa-bag-shopping navbar__iconCart"></i>
+                              <span class="navbar__textCart">Mi carrito</span>
                           </a>
                       </div>
                   </div>
@@ -83,7 +89,7 @@
                     <th>TOTAL</th>
                   </tr>
                 </thead>
-                <tbody>
+                <tbody id="listCartProduct">
                   <tr>
                     <td>
                       <div class="row">
@@ -92,7 +98,7 @@
                         </div>
                         <div class="col-5 d-flex align-items-center justify-content-center">
                           <div class="cart__productImageContainer">
-                            <img class="card__productImage" width="136" src="../../assets/images/product-1.jpg" alt="" />
+                            <img class="cart__productImage" width="136" src="../../assets/images/product-1.jpg" alt="" />
                           </div>
                         </div>
                         <div class="col-5 d-flex flex-column align-items-center justify-content-center">
@@ -259,5 +265,6 @@
     ></script>
     <script src="../../utils/storage.utils.js" type="module"></script>
     <script src="../../components/header/header.js" type="module"></script>
+    <script src="./cart.js" type="module"></script>
   </body>
 </html>
