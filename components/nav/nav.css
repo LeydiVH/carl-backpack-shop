@@ -1,11 +1,257 @@
+.navbar__bar {
+    display: none;
+}
+
+.navbar__barButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: transparent;
+}
+
+.navbar__logo {
+    width: 9.375rem;
+}
+
 .navbar__direction {
     flex-direction: row;
 }
+
 .navbar__wrapper {
     gap: 3.125rem;
     width: 100%;
     text-align: center;
 }
+
 .navbar__wrapper li {
     margin: 0;
+}
+
+/* .navbar__item, .navbar__text {
+    color: var(--buttonText);
+} */
+
+.navbar__iconWrapper {
+    justify-content: end;
+    width: 100%;
+}
+
+.navbar__iconMenu,
+.navbar__iconSearch,
+.navbar__iconCart,
+.navbar__textCart {
+    color: var(--buttonText);
+}
+
+
+@media screen and (min-width: 1610px) and (max-width: 1719.98px) {
+    .navbar__wrapper {
+        gap: 3.125rem;
+    }
+}
+
+@media screen and (min-width: 1476px) and (max-width: 1609.98px) {
+    .navbar__wrapper {
+        gap: 1.875rem;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1475.98px) {
+    .navbar__wrapper {
+        gap: 1.875rem;
+    }
+
+    .navbar__logo {
+        width: 8.125rem;
+    }
+
+    .navbar__iconMenu {
+        font-size: var(--nav-icon);
+    }
+
+    .navbar__iconSearch {
+        font-size: var(--nav-icon);
+    }
+
+    .navbar__iconCart {
+        font-size: var(--nav-icon);
+    }
+
+    .navbar__textCart {
+        display: none;
+    }
+
+    .col-ccl-9 {
+        width: 75%;
+    }
+
+    .col-ccl-6 {
+        width: 50%;
+    }
+
+    .col-ccl-1 {
+        width: 8.33333333%;
+    }
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199.98px) {
+    .navbar__wrapper {
+        gap: 1.5rem;
+    }
+
+    .navbar__logo {
+        width: 7.75rem;
+    }
+
+    .navbar__iconMenu {
+        font-size: var(--nav-icon);
+    }
+
+    .navbar__iconSearch {
+        font-size: var(--nav-icon);
+    }
+
+    .navbar__iconCart {
+        font-size: var(--nav-icon);
+    }
+
+    .navbar__textCart {
+        display: none;
+    }
+
+    .col-ccl-6 {
+        width: 50%;
+    }
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1097.98px) {
+    .navbar__wrapper {
+        gap: 1.125rem;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+    .navbar__collapse {
+        display: none !important;
+    }
+
+    .navbar__bar {
+        display: block;
+    }
+
+    .navbar__logoContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navbar__logo {
+        width: 8.5rem;
+    }
+
+    .navbar__iconMenu {
+        font-size: var(--nav-icon);
+    }
+
+    .navbar__iconSearch {
+        font-size: var(--nav-icon);
+    }
+
+    .navbar__iconCart {
+        font-size: var(--nav-icon);
+    }
+
+    .navbar__textCart {
+        display: none;
+    }
+
+    .col-ccl-6 {
+        width: 50%;
+    }
+
+
+}
+
+@media screen and (min-width: 576px) and (max-width: 767.98px) {
+    .navbar__collapse {
+        display: none !important;
+    }
+
+    .navbar__bar {
+        display: block;
+    }
+
+    .navbar__logoContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navbar__logo {
+        width: 8.5rem;
+    }
+
+    .navbar__iconMenu {
+        font-size: var(--nav-icon);
+    }
+
+    .navbar__iconSearch {
+        font-size: var(--nav-icon);
+    }
+
+    .navbar__iconCart {
+        font-size: var(--nav-icon);
+    }
+
+    .navbar__textCart {
+        display: none;
+    }
+
+    .col-ccl-6 {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 575.98px) {
+    .navbar__collapse {
+        display: none !important;
+    }
+
+    .navbar__bar {
+        display: block;
+    }
+
+    .navbar__logoContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navbar__logo {
+        width: 8.125rem;
+    }
+
+    .navbar__iconMenu {
+        font-size: var(--nav-icon);
+    }
+
+    .navbar__iconSearch {
+        font-size: var(--nav-icon);
+    }
+
+    .navbar__iconCart {
+        font-size: var(--nav-icon);
+    }
+
+    .navbar__textCart {
+        display: none;
+    }
+
+    .col-ccl-6 {
+        width: 50%;
+    }
 }

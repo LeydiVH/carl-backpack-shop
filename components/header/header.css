@@ -1,5 +1,9 @@
 .header {
     background-color: var(--background-principal);
+    height: var(--navbar-height);
+}
+.header__content {
+    height: var(--navbar-height);
 }
 .header__bagContainer {
     gap: .375rem;

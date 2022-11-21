@@ -35,12 +35,13 @@
 
        /* Text styles*/
    
-   /* --title: 2rem;
+   --title: 2rem;
    --subtitle: 1rem;
-   --paragraph:;
-   --nav-item: ;
-   --nav-text: ;
-   --button-text:;
+   /* --paragraph:; */
+   --nav-item: 600 .875rem var(--baseFont);
+   --nav-text: 200 1rem var(--baseFont);
+   --nav-icon: 1.25rem;
+   /* --button-text:;
    --title-card:;
    --text-card: ;
    --price-text-card: ;
@@ -113,23 +114,23 @@ background: #d4d4d4;
 
 ::-webkit-scrollbar {
   width: 12px;
-  background-color: var(--background-principal);
+  background-color: var(--card-background);
   cursor: pointer;
 }
 
 ::-webkit-scrollbar-track {
   border-radius: 5px;
-  background-color: var(--background-principal);
+  background-color: var(--card-background);
 }
 
 ::-webkit-scrollbar-thumb {
   border-radius: 5px;
-  background-color: var(--card-background);
+  background-color: #bdb7b8;
 }
 
 ::-webkit-scrollbar-thumb:hover {
   border-radius: 5px;
-  background-color: var(--button-hover);
+  background-color: #9b9295;
 }
 
 /* Sections */
@@ -159,3 +160,4 @@ background: #d4d4d4;
   left: 0;
   right: 0;
 }
+
